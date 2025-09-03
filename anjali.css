@@ -1,0 +1,58 @@
+/* Google font for the logo */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 32px;
+  color: gold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.call {
+  border: 1px solid gold;
+  padding: 8px 12px;
+  color: gold;
+}
+
+.hero {
+  background-image: url("cake1.webp"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  text-align: center;
+}
